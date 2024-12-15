@@ -6,9 +6,9 @@ export default function SectionTwo() {
 
       <div className="m-12">
         <div className="mb-10">
-        <p className="text-xl">Our Services</p>
-        <p>Practical AI solutions for startups and large companies.</p>
-        <p>Meet your next custom AI.</p>
+        <p className="text-xl font-bold">Our Services</p>
+        <p className="font-bold">Practical AI solutions for startups and large companies.</p>
+        <p className="font-bold">Meet your next custom AI.</p>
         <div className="sm:grid grid-cols-2 gap-10 mt-10">
           <div>
             <Image className="rounded-xl h-80"
