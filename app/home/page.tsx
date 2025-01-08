@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <>
 
-    <div className={`${styles.homeBackground}`}>
+    <div className={`${styles.homeBackground} overflow-x-hidden`}>
       <Header />
       <BarNav />
       <SectionOne />

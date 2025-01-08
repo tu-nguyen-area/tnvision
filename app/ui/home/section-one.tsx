@@ -12,7 +12,7 @@ export default function SectionOne() {
       </div>
       <div className="m-12">
         <div className="mb-10 absolute sm:top-1/2 top-[30%]">
-          <p className="text-2xl sm:text-6xl text-white">Computer Vision software and Services</p>
+          <p className="text-2xl sm:text-6xl text-white">Computer Vision Software and Services</p>
           <p className="text-white">Automate, innovate, and deliver better customer experiences with custom AI solutions</p>
           <p className="text-white">The next AI Vision in your hands</p>
         </div>
