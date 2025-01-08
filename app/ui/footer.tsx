@@ -7,7 +7,7 @@ export default function Footer() {
           <div>
             <p>tudellg33579@gmail.com</p>
             <p>Privacy Policy | Terms of Use</p>
-            <p>&copy; 2024 TN Vision Project. All rights reserved.</p>
+            <p>&copy; 2025 TN Vision Project. All rights reserved.</p>
           </div>
         </footer>
       </div>
