@@ -1,12 +1,18 @@
+import Link from 'next/link';
+
 export default function Header() {
   return (
-    <>
+  <>
 
-    <div className="flex flex-row justify-between p-1 text-white bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-      <p>TN Vision</p>
+  <header>
+    <section className="flex justify-between p-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white">
+      <Link href="/">
+        TN VISION
+      </Link>
       <p>tudellg33579@protonmail.com</p>
-    </div>
+    </section>
+  </header>
 
-    </>
+  </>
   );
 }
