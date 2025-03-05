@@ -13,7 +13,7 @@ export default function SectionTwo() {
 
       <section className="m-12">
         <div className="text-xl">
-          <div className="grid justify-center md:justify-start">
+          <div className="grid justify-center md:justify-start dark:text-black">
             <p className="text-2xl md:text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent text-center w-fit">Our Services</p>
             <p className="font-bold">Practical AI solutions for startups and large companies.</p>
             <p className="font-bold">Meet your next custom AI.</p>
@@ -34,7 +34,7 @@ export default function SectionTwo() {
                     <div className="flex justify-center">
                       <p className="text-2xl md:text-3xl bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text font-extrabold text-transparent text-center w-fit">{content.title}</p>
                     </div>
-                    <p className="text-xl text-center md:text-left">{content.content}</p>
+                    <p className="text-xl text-center md:text-left dark:text-black">{content.content}</p>
                   </div>
                 </div>
               );
